@@ -40,6 +40,16 @@ To generate the figure above, simply run `fig_1_agnostic_beam.m` in the `data` f
 
 # Beam Learning Scripts
 
+<p float="left">
+  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/polar_linear.png" width="300" />
+  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/cartesian_decibel.png" width="300" />
+</p>
+
+
+
+
+
+
 <p align="justify">
   In the paper, we propose a multi-level RIS codebook design solution to reduce the design complexity. As shown in the figure below, the distributed RISs consist of four RISs and we further divide each RIS into two subarrays. The design starts from subarray, then the RIS and finally the four RISs.
 </p>
