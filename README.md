@@ -45,28 +45,15 @@ To generate the figure above, simply run `fig_1_agnostic_beam.m` in the `data` f
   <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/cartesian_decibel.png" width="500" />
 </p>
 
-
-
-
-
-
-<p align="justify">
-  In the paper, we propose a multi-level RIS codebook design solution to reduce the design complexity. As shown in the figure below, the distributed RISs consist of four RISs and we further divide each RIS into two subarrays. The design starts from subarray, then the RIS and finally the four RISs.
-</p>
-
-Corresponding to the designed solution, we have four subfolders named "LIS_x" in this repository. Each of the folder corresponds to one RIS, consisting of two subarrays. A two-level learning is based on each folder:
-- Step 1 (In folder `S1`): Learning from scratch of one subarray.
-- Step 2 (In folder `S2`): Transfer learning of the second subarray by initializing the network parameters with the trained first subarray's.
-- Step 3 (In folder `C1`): The second-level learning that combines the learning results of the two subarrays.
-  
-After that, the final, i.e., the third-level learning is performed:
-- Step 4 (In folder `Comb_net`): The third-level learning that combines the learning results of the four RISs.
-
-Note: At each step mentioned above, you just simply run `main.py` file.
+To generate the above figures, following the steps provided below:
+1. Download all the files of this repository.
+2. Run `main.py` in `interference_beam_learning` folder.
+3. The exact running time is dependent on the computation platform, but you should be able to get the results winthin 1 minute.
+4. Run `step_2_plot.m` in MATLAB.
 
 If you have any problems with generating the figure, please contact [Yu Zhang](https://www.linkedin.com/in/yu-zhang-391275181/).
 
 # License and Referencing
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
-> Y. Zhang and A. Alkhateeb, "[Learning Reflection Beamforming Codebooks for Arbitrary RIS and Non-Stationary Channels](https://arxiv.org/abs/2109.14909)," in arXiv preprint arXiv:2109.14909.
+> Y. Zhang and A. Alkhateeb, "<a href="https://ieeexplore.ieee.org/document/10051931">Online Beam Learning for Interference Nulling in Hardware-Constrained mmWave MIMO Systems</a>," in 2022 56th Asilomar Conference on Signals, Systems, and Computers.
  
