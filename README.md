@@ -41,8 +41,8 @@ To generate the figure above, simply run `fig_1_agnostic_beam.m` in the `data` f
 # Beam Learning Scripts
 
 <p float="center">
-  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/polar_linear.png" width="500" />
-  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/cartesian_decibel.png" width="500" />
+  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/polar_linear.png" width="300" />
+  <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/cartesian_decibel.png" width="300" />
 </p>
 
 To generate the above figures, following the steps provided below:
