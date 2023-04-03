@@ -40,7 +40,7 @@ To generate the figure above, simply run `fig_1_agnostic_beam.m` in the `data` f
 
 # Beam Learning Scripts
 
-<p float="center">
+<p align="center">
   <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/polar_linear.png" width="300" />
   <img src="https://github.com/YuZhang-GitHub/Online_Beam/blob/main/cartesian_decibel.png" width="300" />
 </p>
